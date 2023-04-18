@@ -1,7 +1,7 @@
 version: '3.3'
 services:
-  snake:
-    image: 'amrit96/snake'
+  app-test:
+    image: 'giridharan7k2/app-test:v1'
     environment:
       - "PORT:3000"
     ports:
